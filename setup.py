@@ -55,15 +55,15 @@ for filename in package_data["unalix"]:
         file.truncate()
 
 setup(
-    name="Unalix",
-    version="0.6",
-    author="SnwMds",
-    author_email="snwmds@amanoteam.com",
+    name="Crestify_Unalix",
+    version="0.6.2",
+    author="crestify",
+    author_email="asad@crestify.com",
     description="A simple module that removes tracking fields from URLs and unshort shortened URLs.",
     license="LGPL-3.0",
     long_description=content,
     long_description_content_type="text/markdown",
-    url="https://github.com/AmanoTeam/Unalix",
+    url="https://github.com/crestify/Unalix",
     packages=["unalix"],
     include_package_data=True,
     package_data=package_data,
